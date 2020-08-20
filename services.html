@@ -298,6 +298,14 @@
           )
         }); 
         
+        $( ".hamburger" ).click(function() {
+        $( this ).toggleClass( "open" );
+        $( "#menu-main-menu" ).toggleClass( "active" );
+        });
+        $( "#menu-main-menu a" ).click(function() {
+            $( "#menu-main-menu" ).removeClass( "active" );
+        });
+
 
 
         var swiper2 = new Swiper('#offer-slider', {
