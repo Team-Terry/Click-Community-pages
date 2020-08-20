@@ -170,6 +170,7 @@ a {
         flex-grow: 2;
         @media (max-width: $md){
             position: static;
+            flex-grow: 1;
         }
     }
     .hamburger {
