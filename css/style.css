@@ -17,11 +17,14 @@ body {
   font-family: "sofia-pro", sans-serif;
   font-size: 16px;
   font-weight: 400;
-  color: #171A40;
 }
 
 body.content-machine {
   color: #000;
+}
+
+body.services-page {
+  color: #171A40;
 }
 
 a {
