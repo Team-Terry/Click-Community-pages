@@ -32,7 +32,20 @@ a {
 }
 
 a:hover {
+  outline: none;
   color: initial;
+}
+
+button:hover {
+  opacity: .9;
+}
+
+button:focus {
+  outline: none;
+}
+
+:focus {
+  outline: none;
 }
 
 .button {
@@ -66,6 +79,11 @@ a:hover {
   background-color: #fff;
   color: #008BFF;
   padding: 30px 55px;
+  outline: none;
+}
+
+.button.button-theme:focus {
+  outline: none;
 }
 
 .button.button-theme--resize:hover {
@@ -73,6 +91,7 @@ a:hover {
           box-shadow: none;
   border: 1px solid #008BFF;
   padding: 30px 75px;
+  outline: none;
 }
 
 .button:hover {
@@ -2034,7 +2053,7 @@ svg.smcm-triangle-chart .triangle-arrow {
 }
 
 .delivery .delivery-wrapper .delivery-step .circle:hover {
-  opacity: .9;
+  background-color: #19e1ff;
 }
 
 .delivery .delivery-wrapper .delivery-step .circle:hover img {
@@ -2099,6 +2118,7 @@ svg.smcm-triangle-chart .triangle-arrow {
   line-height: 1.5;
   text-align: center;
   color: #171A40;
+  padding-bottom: 8px;
 }
 
 .delivery .delivery-wrapper .delivery-clouds .cloud::after {

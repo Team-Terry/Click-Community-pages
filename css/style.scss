@@ -49,8 +49,18 @@ body.services-page {
 a {
     text-decoration: none;
     &:hover {
+        outline: none;
         color: initial;
     }
+}
+button:hover {
+    opacity: .9;
+}
+button:focus {
+    outline: none;
+}
+:focus {
+    outline: none;
 }
 .button {
     display: block;
@@ -75,12 +85,17 @@ a {
             background-color: #fff;
             color: $theme-color;
             padding: 30px 55px;
+            outline: none;
+        }
+        &:focus {
+            outline: none;
         }
         &--resize {
             &:hover {
                 box-shadow: none;
                 border: 1px solid $theme-color;
                 padding: 30px 75px;
+                outline: none;
             }
         }
     }
@@ -1555,7 +1570,8 @@ svg.smcm-triangle-chart  {
                 }
                 &:hover {
                     //box-shadow: inset 15px 15px 30px 2px #1f1f1f, inset -15px -15px 30px 2px #333333;
-                    opacity: .9;
+
+                    background-color: #19e1ff;
                     img {
                         transform: scale(.94);
                     }
@@ -1603,7 +1619,7 @@ svg.smcm-triangle-chart  {
                 line-height: 1.5;
                 text-align: center;
                 color: $color-dark;
-              
+                padding-bottom: 8px;
                 &::after {
                     content: '';
                     position: absolute;
