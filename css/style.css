@@ -1117,7 +1117,7 @@ button:focus {
   content: '';
   position: absolute;
   left: 64px;
-  top: 0;
+  top: 60px;
   height: 100%;
   width: 3px;
   border-right: 3px dotted #C7D0DE;
@@ -1160,7 +1160,6 @@ button:focus {
   position: relative;
   -ms-flex-negative: 0;
       flex-shrink: 0;
-  background: #fff 0% 0% no-repeat padding-box;
   margin-right: 30px;
   padding-bottom: 23px;
   z-index: 2;
